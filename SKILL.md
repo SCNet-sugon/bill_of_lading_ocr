@@ -1,7 +1,7 @@
 ---
 name: bill_of_lading_ocr
 description: 支持识别提取航次港口、收发货人、货量、提单号码与承运人核心信息。
-version: 1.0.0
+version: 1.0.1
 author: SCNet
 license: MIT
 tags:
