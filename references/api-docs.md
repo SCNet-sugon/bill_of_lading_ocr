@@ -1,5 +1,7 @@
 # Sugon-Scnet OCR API 文档摘要
 
+> **⚠️ 数据外传警告**：调用本接口会将你上传的本地文件发送至 Scnet 外部 OCR 服务（`https://api.scnet.cn`）。提单等单据可能包含收发货人、航次、货量、联系方式等商业或个人信息，请确认你有权外传该文件内容，并仅上传可信来源文件。
+
 ## 接口地址
 `POST https://api.scnet.cn/api/llm/v1/ocr/recognize`
 

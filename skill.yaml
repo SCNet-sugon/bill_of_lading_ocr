@@ -1,5 +1,5 @@
 name: bill_of_lading_ocr
-version: 1.0.1
+version: 1.0.2
 description: 支持识别提取航次港口、收发货人、货量、提单号码与承运人核心信息。
 author: SCNet
 license: MIT
@@ -16,6 +16,11 @@ primary_credential: SCNET_API_KEY
 
 # 增加项目主页，解决 missing homepage 警告
 homepage: https://github.com/SCNet-sugon/bill_of_lading_ocr.git  # 请替换为实际仓库地址
+permissions:
+  - read_local_files
+  - execute_python
+  - external_network
+
 dependencies:
   - python3
   - requests
